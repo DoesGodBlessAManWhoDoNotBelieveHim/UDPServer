@@ -45,10 +45,16 @@
 - (void)updateView{
     _curtainsOpen = [[[NSUserDefaults standardUserDefaults]objectForKey:key_CurtainsOpen] integerValue]==1;
     NSString *brightnessOfLightInHall = [[NSUserDefaults standardUserDefaults]objectForKey:key_Brightness_Hall];
+    if (!brightnessOfLightInHall || [brightnessOfLightInHall isEqualToString:@""]) {
+        brightnessOfLightInHall = @"0";
+    }
     if (![brightnessOfLightInHall isEqualToString:@"0"]) {
         brightnessOfLightInHall = [brightnessOfLightInHall stringByAppendingString:@"0"];
     }
     NSString *brightnessOfLightInDinningRoom = [[NSUserDefaults standardUserDefaults]objectForKey:key_Brightness_DinningRoom];
+    if (!brightnessOfLightInDinningRoom || [brightnessOfLightInDinningRoom isEqualToString:@""]) {
+        brightnessOfLightInDinningRoom = @"0";
+    }
     if (![brightnessOfLightInDinningRoom isEqualToString:@"0"]) {
         brightnessOfLightInDinningRoom = [brightnessOfLightInDinningRoom stringByAppendingString:@"0"];
     }

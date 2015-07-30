@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D8D1B255-CA71-4428-A1EE-FD7BA63C7115</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>UDPServer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1132FF36C0E050187C4A90EEBAA9D9CB1C0D31D2</key>
 		<string>https://github.com/DoesGodBlessAManWhoDoNotBelieveHim/UDPServer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>UDPServer.xcodeproj/project.xcworkspace</string>
+	<string>UDPServer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1132FF36C0E050187C4A90EEBAA9D9CB1C0D31D2</key>
